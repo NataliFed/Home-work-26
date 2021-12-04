@@ -24,6 +24,7 @@ header {
   left: 0;
   width: 100%;
   padding-top: 50px;
+  position: fixed;
 }
 
 header .container .header-inner {
@@ -498,6 +499,8 @@ footer .footer-inner .social {
   }
   header .burger {
     display: block;
+    position: fixed;
+    margin-top: -30px;
     padding-left: 20px;
   }
   header .burger-inner {
